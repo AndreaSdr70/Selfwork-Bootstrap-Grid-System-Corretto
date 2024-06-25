@@ -1,0 +1,48 @@
+:root{
+    --main: #ddf2eb;
+    --sec: #606d5d;
+    --acc: #F1DB4B;
+}
+
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+nav{
+    background-color: var(--main);
+    height:80px;
+
+}
+
+.listLink{
+    list-style-type: none;
+    margin: 0px;
+}
+
+.link{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+
+}
+
+header{
+    background-image: url(./media/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1-custom{
+    color: var(--sec);
+    letter-spacing: 10px;
+    font-size: 10vh;
+}
+
+.img-custom{
+width: 200px;
+
+}
+
+.article-custom{
+    background-color: var(--main);
+}
